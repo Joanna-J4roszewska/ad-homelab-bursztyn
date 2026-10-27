@@ -29,7 +29,11 @@ A simulation of IT helpdesk tasks in a small fictional company, Bursztyn Sp. z o
 - Created a Global Security group for each department
 - Verified the structure with PowerShell ('Get-ADOrganizationalUnit', 'Get-ADGroup')
 
+**OU structure in Active Directory Users and Computers:**
+<img src="screenshots/day1-ou-tree.png" width="600">
 
+**Verification with PowerShell:**
+<img src="screenshots/day1-ou-structure.png" width="600">
 
 ## Issues encountered
 - OU created in the wrong location: IT_Infrastruktura was accidentally created inside
