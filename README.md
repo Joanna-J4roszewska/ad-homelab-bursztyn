@@ -7,7 +7,7 @@ A simulation of IT helpdesk tasks in a small fictional company, Bursztyn Sp. z o
 
 ## Environment
 - Domain controller: DC02 ('lab2.local')
- - Workstation: to be added, first failed due to minor problem with a backup
+ - Workstation: to be added, 
 - VirtualBox, NAT network
 
 ## Roadmap
