@@ -1,6 +1,6 @@
 # ad-homelab-bursztyn
 > **Status: On hold** — paused due to temporary lack of access to my
-> lab machine. Currently working on [Linux / Debian Lab]([link-do-repo](https://github.com/Joanna-J4roszewska/linux-debian-lab/tree/main)).
+> lab machine. Currently working on [Linux / Debian Lab](https://github.com/Joanna-J4roszewska/linux-debian-lab).
 
 ## About
 A simulation of IT helpdesk tasks in a small fictional company, Bursztyn Sp. z o.o.
