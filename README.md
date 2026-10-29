@@ -1,5 +1,6 @@
 # ad-homelab-bursztyn
-Work in progress – updated regularly.
+> **Status: On hold** — paused due to temporary lack of access to my
+> lab machine. Currently working on [Linux / Debian Lab](link-do-repo).
 
 ## About
 A simulation of IT helpdesk tasks in a small fictional company, Bursztyn Sp. z o.o.
