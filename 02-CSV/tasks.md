@@ -33,13 +33,17 @@ I didn't run it for real straight away. I tested it in three steps:
       <sub>WhatIf: AD tells me what it would do</sub>
     </td>
     <td align="center">
-      <img src="../screenshots/13.png" width="420"><br>
-      <sub>The real run: 5 accounts in the right OUs and Magdalena in both groups</sub>
+      <img src="../screenshots/12.png" width="420"><br>
+      <sub>First real run: accounts created, no groups yet</sub>
     </td>
   </tr>
   <tr>
-    <td colspan="2" align="center">
-      <img src="../screenshots/15.png" width="450"><br>
+    <td align="center">
+      <img src="../screenshots/13.png" width="420"><br>
+      <sub>After the real run: 5 accounts in the right OUs and Magdalena in both groups</sub>
+    </td>
+    <td align="center">
+      <img src="../screenshots/15.png" width="420"><br>
       <sub>All four groups in ADUC with the new GG_Kierownicy</sub>
     </td>
   </tr>
