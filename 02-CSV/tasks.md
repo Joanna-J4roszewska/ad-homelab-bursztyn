@@ -6,7 +6,7 @@ Today's goal sounded simple. Take a list of new employees (the kind of file HR w
 
 First I made a folder `C:\Scripts` on DC02 so all my automation files live in one place.
 
-Then I designed the CSV myself. I went with `Login, GivenName, Surname, Department, Role`. I saved it as UTF-8 and checked with `Import-Csv` that PowerShell actually reads it.
+Then I picked what info each account needs and turned it into a proper CSV with `Login, GivenName, Surname, Department, Role`. I saved it as UTF-8 and checked with `Import-Csv` that PowerShell actually reads it.
 
 <p align="center">
   <img src="../screenshots/5.png" width="550"><br>
@@ -65,9 +65,9 @@ Honestly this part took longer than the script itself 😅
 
 **Missing `}`.** Typing a loop over several lines in the console ended with a missing brace error. That's when I moved to PowerShell ISE which is way nicer for writing scripts.
 
-**Properties inside text.** `"$osoba.Login"` printed the whole object instead of the login. You need `"$($osoba.Login)"` so PowerShell works out the value first.
+**Properties inside text.** I first wrote `"$osoba.Login"` which would print the whole object instead of the login. You need `"$($osoba.Login)"` so PowerShell works out the value first.
 
-**`\n` is not a thing here.** That's my Linux habit. In PowerShell every `Write-Host` already starts a new line so I just used a few of them.
+**New lines in output.** I tried `\n` (Linux habit) and also put two `Write-Host` in one line. The second one just got printed as text. In PowerShell every `Write-Host` already starts a new line so I put each one on its own line.
 
 **The backtick.** One missing space before the backtick after `$true` and I got *Cannot convert System.String to Boolean*. On top of that `-WhatIf` was treated as a separate command. One space. ONE. Lesson learned.
 
