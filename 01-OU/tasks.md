@@ -8,11 +8,11 @@
 
 **OU structure in Active Directory Users and Computers:**
 
-<img src="screenshots/day1-ou-tree.png" width="400">
+<img src="../screenshots/day1-ou-tree.png" width="400">
 
 **Verification with PowerShell:**
 
-<img src="screenshots/day1-ou-structure.png" width="700">
+<img src="../screenshots/day1-ou-structure.png" width="700">
 
 ## Issues encountered
 - OU created in the wrong location: IT_Infrastruktura was accidentally created inside
