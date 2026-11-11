@@ -11,7 +11,7 @@ A simulation of IT helpdesk tasks in a small fictional company, Bursztyn Sp. z o
 
 ## Roadmap
 - [x] OU structure and security groups
-- [ ] Bulk user creation from CSV (PowerShell)
+- [x] Bulk user creation from CSV (PowerShell)
 - [ ] Shared department folder with group-based permissions
 - [ ] New employee onboarding (template account)
 - [ ] Employee offboarding
