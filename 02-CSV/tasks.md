@@ -75,7 +75,6 @@ Honestly this part took longer than the script itself 😅
 
 **The backtick.** One missing space before the backtick after `$true` and I got *Cannot convert System.String to Boolean*. On top of that `-WhatIf` was treated as a separate command. One space. ONE. Lesson learned.
 
-**"The specified account already exists".** That's what you get when you run the script twice. It doesn't check for existing users yet so that's on the v2 list.
 
 <details>
 <summary>📸 Screenshots of my errors</summary>
